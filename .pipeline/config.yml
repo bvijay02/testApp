@@ -2,11 +2,12 @@
 general:
   buildTool: "mta"
 service:
-  buildToolVersion: "MBTJ11N16" #see SAP Continuous Integration and Delivery service for more build tool version options
+  buildToolVersion: "MBTJ11N18" #see SAP Continuous Integration and Delivery service for more build tool version options
 stages:
   Build:
     mavenExecuteStaticCodeChecks: false
     npmExecuteLint: true
+    verbose: true
   Additional Unit Tests:
     npmExecuteScripts: false
   Acceptance:
