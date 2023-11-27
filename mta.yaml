@@ -26,8 +26,8 @@ modules:
         - package-lock.json
     parameters:
       buildpack: nodejs_buildpack
-      memory: 256M
-      disk-quota: 1024M
+      memory: 512M
+      disk-quota: 2048M
     requires:
       - name: testApp-uaa
       - name: testApp-db
