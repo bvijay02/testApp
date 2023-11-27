@@ -35,7 +35,7 @@ steps:
   npmExecuteLint:
     failOnError: true
   cloudFoundryDeploy:
-    mtaDeployParameters: "-f --version-rule ALL"
+    mtaDeployParameters: "-f"
   tmsUpload:
     nodeName: "qa"
     credentialsId: "tms-sk"
